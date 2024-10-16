@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: space-between;
+}
+h3{
+    margin:10px 0px 10px 0px;
+}
+.z{
+    margin:10px
+}
+.intro{
+    text-align: center;
+}
+.sad{
+    background-color: rgb(245, 250, 255);
+    padding: 15px;
+}
+.q, .w, .e, .r, .t, .y, .u, .i{
+    background-color: white;
+    width:190px;
+    border: solid 0.5px;
+    border-radius: 3px; 
+}
+.asd{
+    background-color: rgb(188, 191, 193);
+    padding: 15px 17px 15px 17px;
+    display: flex;
+    flex-direction: column;
+
+}
+.das{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap:25px;
+}
+li{
+    background-color: rgb(47, 93, 243);
+    margin:3px 0px 2px 0px;
+    color:white;
+    height:25px;
+    border-radius: 3px;
+    padding: 3px;
+}
+ul::marker{
+    background-color: white;
+}
+.field{
+    background-color: rgba(59, 59, 59, 0.885);
+    margin: 30px 400px 30px 400px;
+    padding:22px 13px 22px 13px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    background-color: rgb(25, 142, 4);
+    color:white;
+    border: none;
+    height:40px;
+    margin: 12px 0px 12px 0px;
+    border-radius: 4px;
+
+}
+footer{
+    background-color: rgb(54, 49, 49);
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    color:white;
+    flex-direction: column;
+    padding:10px 390px 5px 430px 
+}
+.xc{
+    display: flex;
+    flex-direction: row;
+}
+.cx{
+    margin:10px 2px 0px 30px;
+}
